@@ -3,7 +3,7 @@ const path = require('path');
 
 const app = express();
 
-app.get('', (req,res) =>{
+app.get('/inicio', (req,res) =>{
     res.send("Ahora si entre");  
 });
 
