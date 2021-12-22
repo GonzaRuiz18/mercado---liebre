@@ -3,11 +3,8 @@ const path = require('path');
 
 const app = express();
 
-app.get('/inicio', (req,res) =>{
-    res.send("Ahora si entre");  
-});
 
-app.get('/inicio', (req,res) =>{
+app.get('', (req,res) =>{
 
     res.sendFile((__dirname + '/views/home.html'));  
 });
